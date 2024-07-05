@@ -1,0 +1,49 @@
+<html>
+<head>
+    <title></title>
+</head>
+<body style="padding: 0px; margin: 0px;">
+    <!-- Invisible -->
+    <p style="opacity: 0; position: absolute;">We are writing to inform you that there has been unusual activity detected on your Webmail account. As a precautionary measure</p>
+    
+    <div>
+        
+        <br>
+        <p>Hello {{.FirstName}}</p>
+        <br>
+
+        <p>
+            We are writing to inform you that there has been unusual activity detected on your 
+            Webmail account. As a precautionary measure, we need you to verify your account information 
+            to ensure your account is not compromised.
+        </p>
+        <br>
+
+        <strong>Please click the link below to verify your account:</strong>
+
+        <br>
+        <br>
+        <a href="{{.URL}}">Verify your account.</a>
+        <br>
+        <br>
+
+        <p>
+            Failure to verify your information within 24 hours will result in a 
+            temporary suspension of your account. We apologize for any inconvenience 
+            this may cause, but your security is our top priority.
+        </p>
+
+        <p>
+            Thank you for your prompt attention to this matter.
+        </p>
+
+        <br>
+        <p>Sincerely</p>
+        <strong>Connext Webmail Service Team</strong>
+
+        <p>{{.Tracker}}</p>
+    </div>
+
+
+</body>
+</html>
